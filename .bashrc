@@ -138,4 +138,6 @@ export PATH="$PATH:/home/wsldev/.local/bin"
 export JMETER_HOME=/opt/apache-jmeter-5.6.3
 export PATH=$PATH:$JMETER_HOME/bin
 
- 
+# Enable history search with up and down arrows
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
